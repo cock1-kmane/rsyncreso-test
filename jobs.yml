@@ -1,5 +1,10 @@
 jobs:
-  - name : rsyncresotest-manifest7
+  - name : rsyncresotest-manifest8
     type: manifest
     steps:
-      - GET: rsyncresotest-20
+      - GET: rsyncresotest-manifest21
+      
+  - name : rsyncresotest-manifest9
+    type: manifest
+    steps:
+      - GET: rsyncresotest-manifest22
