@@ -1,5 +1,5 @@
 jobs:
-  - name : rsyncresotest-manifest4
-    type: manifest
+  - name : rsyncresotest-manifest5
+    type: manifesttestss
     steps:
-      - GET: rsyncresotest-image17
+      - GET: rsyncresotest-image18
