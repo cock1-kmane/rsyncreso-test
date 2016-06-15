@@ -1,5 +1,9 @@
 jobs:
-  - name : rsyncresotest-manifest5
-    type: manifesttestss
+  - name : rsyncresotest-manifest6
+    type: manifest
     steps:
-      - GET: rsyncresotest-image18
+      - PUT: rsyncresotest-image18
+      - GET: rsyncresotest-image19
+      - GET: rsyncresotest-dockeroption1
+      - GET: rsyncresotest-param1
+      - GET: rsyncresotest-image17
