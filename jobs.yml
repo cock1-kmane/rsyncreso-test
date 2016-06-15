@@ -1,0 +1,6 @@
+jobs:
+  - name: rsyncresotest-manifest1
+    type: manifest
+    steps:
+      - GET: rsyncresotest-image2
+      
