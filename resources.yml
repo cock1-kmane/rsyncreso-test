@@ -29,4 +29,4 @@ resources:
     source:
       name: "shiphitchcock1/betaci_nod_privateimg_pl"
       isPull: true
-      tag: "privateimage.20"
+      tag: "privateimage.20" 
