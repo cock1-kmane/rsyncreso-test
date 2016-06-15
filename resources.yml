@@ -1,5 +1,5 @@
 resources:
-  - name : rsyncresotest-image7
+  - name: rsyncresotest-image7
     type: imagetest
     integration: shiphitchcockdockercock1-hub
     source:
