@@ -1,6 +1,6 @@
 resources:
-  - name : rsyncresotest-image5
-    type: image
+  - name : rsyncresotest-image6
+    type: imagetest
     integration: cock1-hub
     source:
       name: "shiphitchcock1/samplenod"
