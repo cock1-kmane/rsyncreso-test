@@ -1,8 +1,32 @@
 resources:
-  - name: rsyncresotest-image8
+  - name: rsyncresotest-image9
     type: image
     integration: cock1-hub
     source:
-      name: "shiphitchcock1/samplenodtsresources"
+      name: "shiphitchcock1/samplenod"
       isPull: false
       tag: latest
+      
+  - name: rsyncresotest-image10
+    type: image
+    integration: cock1-hub
+    source:
+      name: "shiphitchcock1/sample_python"
+      isPull: true
+      tag: latest
+      
+  - name: rsyncresotest-image11
+    type: image
+    integration: cock1-hub
+    source:
+      name: "shiphitchcock1/betaci_nod_privateimg_pl"
+      isPull: false
+      tag: "privateimage.20"
+      
+  - name: rsyncresotest-image12
+    type: image
+    integration: cock1-hub
+    source:
+      name: "shiphitchcock1/betaci_nod_privateimg_pl"
+      isPull: true
+      tag: "privateimage.20"
