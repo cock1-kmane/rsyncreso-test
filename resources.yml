@@ -1,7 +1,7 @@
 resources:
-  - name : rsyncresotest-image6
+  - name : rsyncresotest-image7
     type: imagetest
-    integration: cock1-hub
+    integration: shiphitchcockdockercock1-hub
     source:
       name: "shiphitchcock1/samplenod"
       isPull: false
