@@ -1,6 +1,6 @@
 resources:
   - name: rsyncresotest-image7
-    type: imagetest
+    type: image
     integration: shiphitchcockdockercock1-hub
     source:
       name: "shiphitchcock1/samplenod"
