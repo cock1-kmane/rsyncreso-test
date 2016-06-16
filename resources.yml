@@ -1,5 +1,5 @@
 resources:
-  - name: rsyncresotest-image23
+  - name: rsyncresotest-image24
     type: image
     integration: cock1-hub
     source:
@@ -7,4 +7,3 @@ resources:
       isPull: false
       tag: latest
       
- 
