@@ -1,7 +1,11 @@
 jobs:
-  - name : "rsyncresotest-manifest16"
+  - name : rsyncresotest-manifest17
     type: manifest
     steps:
-      - GET: rsyncresotest-image28
-      - PUT: rsyncresotest-image28
+      - GET: rsyncresotest-image29
   
+  - name : rsyncresotest-manifest18
+    type: manifest
+    steps:
+      - GET: rsyncresotest-manifest17
+      
