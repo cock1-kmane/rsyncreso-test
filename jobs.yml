@@ -3,4 +3,4 @@ jobs:
     type: manifest
     steps:
       - GET: rsyncresotest-image26
-  
+      - GET: rsyncresotest-image26
