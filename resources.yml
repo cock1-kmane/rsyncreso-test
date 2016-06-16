@@ -1,5 +1,5 @@
 resources:
-  - name: rsyncresotest-image21
+  - name: rsyncresotest-image23
     type: image
     integration: cock1-hub
     source:
@@ -7,10 +7,4 @@ resources:
       isPull: false
       tag: latest
       
-  - name: rsyncresotest-image22
-    type: image
-    integration: cock1-hub
-    source:
-      name: "shiphitchcock1/samplenod"
-      isPull: true
-      tag: latest    
+ 
