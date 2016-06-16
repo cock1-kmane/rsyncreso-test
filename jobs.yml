@@ -1,6 +1,7 @@
 jobs:
-  - name : "rsyncresotest-manifest15"
+  - name : "rsyncresotest-manifest16"
     type: manifest
     steps:
-      - GET rsyncresotest-image27
+      - GET: rsyncresotest-image28
+      - PUT: rsyncresotest-image28
   
