@@ -1,5 +1,5 @@
 resources:
-  - name: rsyncresotest-image24
+  - name: rsyncresotest-image25
     type: image
     integration: cock1-hub
     source:
